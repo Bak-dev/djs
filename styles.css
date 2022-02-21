@@ -101,11 +101,13 @@
   .vision{
     margin-bottom: 30px;
     text-align: center;
+    font-size: x-large;
   
   }
   .mission{
     margin-bottom: 30px;
     text-align: center;
+    font-size: x-large;
 
   }
   .primary{
@@ -204,10 +206,12 @@ left: 330px;
   padding: 10px;
   width: 30%
 }
+/*
 .col-3{
 
   
 }
+*/
 .t_img{
   width: 200px;
   height:200px;
@@ -314,6 +318,47 @@ left: 330px;
   padding-bottom: 15px;
 }
 
+
+/*.section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding-top: 100px;
+    background: #3c31dd;
+}
+.footer {
+  position: absolute;
+  height: 250px;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
+
+.footer::before {
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 55%;
+  height: 100%;
+  transform: translate(85%, 60%);
+  background-color: hsl(216, 21%, 16%);
+}
+
+.footer::after {
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 55%;
+  height: 100%;
+  background-color: #3c31dd;
+  transform: translate(-4%, 40%);
+  z-index: -1;
+}*/
+
 .motto{
   background-color: #F40009;
   margin-top: 2px;
@@ -332,9 +377,39 @@ left: 330px;
   margin-bottom: 20px;
 }
 
+.why-us{
+  text-align: center;
+  margin-top: auto;
+  
+}
 
+.why-us p{
+  padding: 20px;
+  font-size: x-large;
+}
+.why-us h3{
+  font-size: xx-large;
+  color: #F40009;
+}
 
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
+.button-3{
+  background-color:#F40009;
+  padding: 15px 32px;
+   text-align: center;
+   font-size: 20px;
+   display: block;
+   margin-top: 20px;
+   border-radius: 12px;
+   cursor: pointer;
+   color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+  justify-content: center;
+  font-size: x-large;
+}
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+
+}
